@@ -46,17 +46,17 @@ header {
     margin: auto;
 }
 
-/* TEXT CONTENT */
-.text {
-    margin: 2%;
-    background-color: #d9d9d9;
-    padding: 1%;
-}
-
+/* HEADERS */
 h2 {
     font-family: "Lobster";
     color: #bd532b;
-    font-size: 3em;
+    font-size: 1.5 em;
+    text-align: center;
+    background-color: #d3d3d3;
+    width: 80%;
+    padding: 2%;
+    margin: auto;
+    margin-top: 1%;
 }
 
 h3 {
@@ -71,18 +71,13 @@ h4 {
     font-size: 1.2em;
 }
 
-.copy {
-    font-family: "Space Mono", monospace;
-    color: grey;
-    font-size: 0.9em;
-}
-
-/* BUTTONS */
 aside {
     background-color: #d9d9d9;
     padding: 3%;
 }
 
+
+/* NAV */
 .buttons {
     margin: auto;
     width: 100%;
@@ -93,8 +88,8 @@ aside {
     width: 40%;
     max-width: 200px;
     margin: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 div[class*=box] {
@@ -116,7 +111,7 @@ div[class*=box] {
 }
 
 .btn-two {
-    color: #ddb957;
+    color: white;
     transition: all 0.5s;
     position: relative;
     font-family: "Armata";
@@ -142,7 +137,6 @@ div[class*=box] {
     z-index: 1;
     transition: all 0.5s;
     border: 1px solid #ddb957;
-    background-color: #bd532b;
 }
 
 .btn-two::after {
@@ -166,6 +160,53 @@ div[class*=box] {
 .btn-two:hover::after {
     transform: rotate(45deg);
     background-color: rgba(255, 255, 255, 0);
+}
+
+/* ICONS */
+.facebook {
+    padding-top: 20px;
+    width: 15%;
+    margin-left: 24%;
+    clear: none;
+    display: inline;
+    float: left;
+}
+
+.twitter {
+    padding-top: 20px;
+    width: 15%;
+    margin-left: 20%;
+    display: inline;
+    clear: both;
+}
+
+/* INDEX PAGE FORMATIING */
+.hours {
+    font-size: 2.6rem;
+    color: #6b7b9b;
+}
+
+figcaption {
+    font-family: "Armata";
+    font-size: 0.8rem;
+    color: grey;
+    text-align: center;
+    font-style: italic;
+    padding-top: 7px;
+}
+
+.cast {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: 2px solid #6b759b;
+}
+
+.restaurant {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: 2px solid #6b759b;
 }
 
 /* TEXTLINK */
