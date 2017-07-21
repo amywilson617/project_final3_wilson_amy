@@ -1,0 +1,286 @@
+element.style {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+article,
+aside,
+details,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+img {
+    display: block;
+}
+
+@font-face {
+    font-family: "Sports";
+    src: url('fonts/sportsjersey.ttf');
+}
+
+/* BEGIN MAIN FORMATTING */
+.container {
+    background-color: #ddb957;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    background-color: #bd532b;
+}
+
+.logo {
+    display: block;
+    width: 50%;
+    max-width: 300px;
+    margin: auto;
+}
+
+/* TEXT CONTENT */
+.text {
+    margin: 2%;
+    background-color: #d9d9d9;
+    padding: 1%;
+}
+
+h2 {
+    font-family: "Lobster";
+    color: #bd532b;
+    font-size: 3em;
+}
+
+h3 {
+    font-family: "Armata";
+    color: #bd532b;
+    font-size: 2em;
+}
+
+h4 {
+    font-family: "Armata";
+    color: #6b759b;
+    font-size: 1.2em;
+}
+
+.copy {
+    font-family: "Space Mono", monospace;
+    color: grey;
+    font-size: 0.9em;
+}
+
+/* BUTTONS */
+aside {
+    background-color: #d9d9d9;
+    padding: 3%;
+}
+
+.buttons {
+    margin: auto;
+    width: 100%;
+}
+
+.buttons li {
+    list-style-type: none;
+    width: 40%;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+div[class*=box] {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-2 {
+    background-color: #6b759b;
+}
+
+.btn {
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 250px;
+}
+
+.btn-two {
+    color: #ddb957;
+    transition: all 0.5s;
+    position: relative;
+    font-family: "Armata";
+    margin: 3%;
+    font-size: 1.5em;
+}
+
+.btn-two span {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-two::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid #ddb957;
+    background-color: #bd532b;
+}
+
+.btn-two::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid #6b759b;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-two:hover::before {
+    transform: rotate(-45deg);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.btn-two:hover::after {
+    transform: rotate(45deg);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* TEXTLINK */
+.textlink {
+    background-color: #bd532b;
+    font-family: "Armata";
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 1em;
+    border: 3px solid #6b759b;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    width: 100%;
+    margin: auto;
+    color: #ddb957;
+}
+
+a:hover {
+    color: white;
+}
+
+.link {
+    vertical-align: middle;
+}
+
+.arrow {
+    width: 80%;
+    display: inline;
+    vertical-align: middle;
+}
+
+/* FLEXBOX GALLERY for COLORS */
+.colors {
+    padding: 0.5vw;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    -ms-flex-direction: column;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+    padding-bottom: 4%;
+}
+
+.colors div {
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 100px;
+    margin: 0.5vw;
+    border: 2px solid #d9d9d9;
+}
+
+.colors div img {
+    width: 100%;
+    height: auto;
+}
+
+/* FLEXBOX GALLERY for IMAGES */
+.images {
+    padding: 0.5vw;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    -ms-flex-direction: column;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+}
+
+.images div {
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 160px;
+    margin: 0.5vw;
+    border: 2px solid #d9d9d9;
+}
+
+.images div img {
+    width: 100%;
+    height: auto;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 750px) {
+    article.text {
+        clear: none;
+    }
+
+    aside.textlink {
+        float: left;
+        width: 10%;
+        margin-left: 10%;
+    }
+    .colors {
+        clear: both;
+    }
+
+    .as1 {
+        width: 40%;
+        float: right;
+        clear: none;
+        margin-right: 10%;
+        border: 3px solid #6b759b;
+    }
+
+    div.box-2 {
+        float: right;
+        width: 100%;
+    }
+}
