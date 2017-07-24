@@ -26,6 +26,10 @@ img {
     src: url('fonts/sportsjersey.ttf');
 }
 
+li {
+    list-style-type: none;
+}
+
 /* BEGIN MAIN FORMATTING */
 .container {
     background-color: #ddb957;
@@ -197,7 +201,9 @@ figcaption {
 .food,
 .restaurant,
 .eating,
-.muffin {
+.muffin,
+.class,
+.waitress {
     width: 80%;
     display: block;
     margin: auto;
@@ -220,6 +226,7 @@ footer {
     font-family: 'Lobster';
     text-align: center;
     color: #d3d3d3;
+    padding: 1%;
 }
 
 .footerlogo {
@@ -242,13 +249,37 @@ footer {
 }
 
 .price {
-  font-size: 0.7rem;
-  font-weight: lighter;
+    font-size: 0.7rem;
+    font-weight: lighter;
 }
 
 .description {
     font-size: 0.8rem;
     font-style: italic;
+}
+
+/* ABOUT US */
+.about {
+    background-color: #d3d3d3;
+    padding: 6%;
+    line-height: 220%;
+}
+
+.aboutcategory {
+    font-family: "Lobster";
+    color: #6b759b;
+    font-size: 1.7rem;
+    padding: 2%;
+    line-height: 220%;
+    font-weight: bolder;
+    line-height: 220%;
+}
+
+.aboutdetails {
+    font-family: "Armata";
+    color: #bd532b;
+    font-style: italic;
+    line-height: 220%;
 }
 
 /* TEXTLINK */
