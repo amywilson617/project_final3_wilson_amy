@@ -52,7 +52,6 @@ h2 {
     color: #bd532b;
     font-size: 1.5 em;
     text-align: center;
-    background-color: #d3d3d3;
     width: 80%;
     padding: 2%;
     margin: auto;
@@ -196,7 +195,9 @@ figcaption {
 
 .cast,
 .food,
-.restaurant {
+.restaurant,
+.eating,
+.muffin {
     width: 80%;
     display: block;
     margin: auto;
@@ -225,6 +226,29 @@ footer {
     width: 20%;
     display: block;
     margin: auto;
+}
+
+/* MENU PAGE */
+.item {
+    font-family: "Armata";
+    color: #6b759b;
+    font-size: 1.2rem;
+    padding: 2%;
+    line-height: 110%;
+}
+
+.category {
+    font-size: 2rem;
+}
+
+.price {
+  font-size: 0.7rem;
+  font-weight: lighter;
+}
+
+.description {
+    font-size: 0.8rem;
+    font-style: italic;
 }
 
 /* TEXTLINK */
