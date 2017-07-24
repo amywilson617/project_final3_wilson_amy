@@ -34,7 +34,7 @@ li {
 .container {
     background-color: #ddb957;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1500px;
     margin: auto;
 }
 
@@ -54,12 +54,10 @@ h1 {
 h2 {
     font-family: "Lobster";
     color: #bd532b;
-    font-size: 1.5 em;
     text-align: center;
     width: 80%;
     padding: 2%;
     margin: auto;
-    margin-top: 1%;
 }
 
 h3 {
@@ -71,7 +69,6 @@ h3 {
 h4 {
     font-family: "Armata";
     color: #6b759b;
-    font-size: 1.2m;
 }
 
 aside {
@@ -205,7 +202,8 @@ figcaption {
 .class,
 .waitress,
 .award,
-.kramer {
+.kramer,
+.trunk {
     width: 80%;
     display: block;
     margin: auto;
@@ -227,7 +225,6 @@ footer {
     font-family: 'Lobster';
     text-align: center;
     color: #d3d3d3;
-    padding: 1%;
 }
 
 .footerlogo {
@@ -248,8 +245,9 @@ footer {
     font-family: "Armata";
     color: #6b759b;
     font-size: 1.2rem;
-    padding: 2%;
+    padding: 3%;
     line-height: 110%;
+    background-color: white;
 }
 
 .category {
@@ -269,8 +267,9 @@ footer {
 /* ABOUT US */
 .about {
     background-color: #d3d3d3;
-    padding: 6%;
+    padding: 3%;
     line-height: 220%;
+    border: 2px solid #6b759b;
 }
 
 .aboutcategory {
@@ -292,13 +291,11 @@ footer {
 
 /* FAME */
 .fame {
-    background-color: #d3d3d3;
     font-size: 0.9rem;
-    padding: 2%;
 }
 
 .yellow {
-    background-color: #ddb957;
+    background-color: white;
 }
 
 .purple {
@@ -430,14 +427,13 @@ a:hover {
         clear: none;
         margin: 1%;
         height: 54px;
-        border: 1px solid #6b759b;
     }
 
     figcaption {
         display: none;
     }
 
-    .cast {
+    .trunk {
         float: left;
         width: 40%;
         margin: 4%;
@@ -481,20 +477,14 @@ a:hover {
         width: 40%;
         float: left;
         padding: 2%;
-        height: 400px;
+        height: 450px;
         margin: 3%;
-    }
-
-    .pie,
-    .beverages {
-        height: 300px;
     }
 
     /* ABOUT US */
     .about {
         width: 38%;
         float: left;
-        lear: none;
     }
 
     nav {
@@ -550,10 +540,12 @@ a:hover {
         margin: auto;
         width: 45%;
         font-size: 2rem;
+        margin: .2%;
     }
 
-    .cast {
-      float: right;
+    .trunk {
+        margin: 4%;
+        float: right;
     }
 
     /* MENU */
@@ -567,17 +559,54 @@ a:hover {
         float: left;
         padding: 1.2%;
         height: 550px;
-        margin: .3%;
+        margin: 0.3%;
     }
 
     .eating,
     .muffin {
-      width: 43.5%;
-      float: left;
-      margin: 3%;
+        width: 43.5%;
+        float: left;
+        margin: 1%;
     }
 
+    /* ABOUT */
 
+    .about {
+        padding: 1%;
+        margin: 2%;
+        margin-left: 8%;
+        line-height: normal;
+    }
 
+    .cast,
+    .waitress {
+        width: 30%;
+        margin: 1%;
+        margin-right: 12%;
+    }
 
+    .aboutcategory {
+        font-size: 2.2rem;
+        line-height: normal;
+    }
+    .aboutdetails {
+        font-size: 1.3rem;
+    }
+
+    /* FAME */
+
+    .fame {
+        width: 42%;
+        float: right;
+        font-size: 1rem;
+    }
+
+    .award {
+        margin-top: 7%;
+    }
+    .kramer {
+        width: 96%;
+        margin: 2%;
+        text-align: center;
+    }
 }
