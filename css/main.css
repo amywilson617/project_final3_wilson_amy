@@ -39,7 +39,7 @@ li {
 }
 
 /* HEADER */
-.wrapper {
+h1 {
     background-image: url('img/checkers.png');
 }
 
@@ -210,7 +210,7 @@ figcaption {
     display: block;
     margin: auto;
     border: 2px solid #6b759b;
-}
+  }
 
 /* QUOTE */
 .quote {
@@ -235,6 +235,13 @@ footer {
     width: 20%;
     display: block;
     margin: auto;
+}
+
+.phone,
+.email,
+.address,
+.hours {
+    background-color: #d3d3d3;
 }
 
 /* MENU PAGE */
@@ -394,15 +401,6 @@ a:hover {
         clear: none;
     }
 
-    aside.textlink {
-        float: left;
-        width: 10%;
-        margin-left: 10%;
-    }
-    .colors {
-        clear: both;
-    }
-
     .as1 {
         width: 40%;
         float: right;
@@ -414,5 +412,38 @@ a:hover {
     div.box-2 {
         float: right;
         width: 100%;
+    }
+
+    .phone,
+    .email,
+    .address,
+    .hours {
+        font-size: 1.3rem;
+        width: 17%;
+        float: left;
+        clear: none;
+        margin: 1%;
+        height: 54px;
+        border: 1px solid #6b759b;
+    }
+
+    figcaption {
+        display: none;
+    }
+
+    .cast {
+        float: left;
+        width: 40%;
+        margin: 4%;
+    }
+
+    .restaurant {
+        float: left;
+        width: 40%;
+        margin: 4%;
+    }
+
+    .quote{
+      width
     }
 }
