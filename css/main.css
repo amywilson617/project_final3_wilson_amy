@@ -39,8 +39,8 @@ li {
 }
 
 /* HEADER */
-header {
-    background-color: #bd532b;
+.wrapper {
+    background-image: url('img/checkers.png');
 }
 
 .logo {
@@ -203,7 +203,9 @@ figcaption {
 .eating,
 .muffin,
 .class,
-.waitress {
+.waitress,
+.award,
+.kramer {
     width: 80%;
     display: block;
     margin: auto;
@@ -280,6 +282,22 @@ footer {
     color: #bd532b;
     font-style: italic;
     line-height: 220%;
+}
+
+/* FAME */
+.fame {
+    background-color: #d3d3d3;
+    font-size: 0.9rem;
+    padding: 2%;
+}
+
+.yellow {
+    background-color: #ddb957;
+}
+
+.purple {
+    background-color: #6b759b;
+    color: #d3d3d3;
 }
 
 /* TEXTLINK */
