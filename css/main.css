@@ -489,4 +489,22 @@ a:hover {
     .beverages {
         height: 300px;
     }
+
+    /* ABOUT US */
+    .about {
+      width: 38%;
+      float: left;
+      clear: none;
+    }
+
+    .cast,
+    .waitress {
+      float: right;
+      width: 40%;
+      margin: 3%;
+    }
+
+    h5{
+      font-size: 1.3rem;
+    }
 }
