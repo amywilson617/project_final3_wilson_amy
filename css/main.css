@@ -210,13 +210,12 @@ figcaption {
     display: block;
     margin: auto;
     border: 2px solid #6b759b;
-  }
+}
 
 /* QUOTE */
 .quote {
     text-align: center;
     font-size: 1rem;
-    border: 2px solid #6b759b;
     padding: 1%;
 }
 
@@ -397,6 +396,13 @@ a:hover {
 /* MEDIA QUERIES */
 
 @media (min-width: 750px) {
+    .logo {
+        width: 30%;
+    }
+
+    .btn-two {
+        margin: 1%;
+    }
     article.text {
         clear: none;
     }
@@ -443,7 +449,44 @@ a:hover {
         margin: 4%;
     }
 
-    .quote{
-      width
+    .as1,
+    .quote {
+        width: 100%;
+        margin: auto;
+    }
+
+    .footerlogo {
+        width: 10%;
+    }
+
+    /* MENU */
+
+    .category {
+        margin-top: 4%;
+    }
+
+    .item {
+        font-size: 1.4rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .breakfast,
+    .lunch,
+    .pie,
+    .beverages {
+        background-color: white;
+        width: 40%;
+        float: left;
+        padding: 2%;
+        height: 400px;
+        margin: 3%;
+    }
+
+    .pie,
+    .beverages {
+        height: 300px;
     }
 }
