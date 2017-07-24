@@ -221,6 +221,7 @@ figcaption {
     background-color: #6b759b;
     color: white;
     font-family: "Armata";
+    font-size: 0.7rem;
 }
 
 .ticker ul {
@@ -471,6 +472,10 @@ a:hover {
         width: 10%;
     }
 
+    .ticker {
+        font-size: 1.2rem;
+    }
+
     /* MENU */
 
     .category {
@@ -562,6 +567,10 @@ a:hover {
     .trunk {
         margin: 4%;
         float: right;
+    }
+
+    .ticker {
+        font-size: 1.6rem;
     }
 
     /* MENU */

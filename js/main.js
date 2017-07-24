@@ -10,3 +10,7 @@ $.simpleTicker($('#demo'), {
     easing: 'swing',
     effectType: 'slide'
 });
+
+document.addEventListener('click', function () {
+    document.getElementById('hours').textContent = 'We look forward to hearing from you';
+});
