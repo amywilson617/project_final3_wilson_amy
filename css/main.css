@@ -179,6 +179,11 @@ div[class*=box] {
     clear: both;
 }
 
+.border {
+    color: white;
+}
+
+
 /* INDEX PAGE FORMATIING */
 .hours {
     font-size: 2.6rem;

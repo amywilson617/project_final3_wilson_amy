@@ -12,15 +12,20 @@
     });
 
 
-/* CUSTOM JAVASCRIPT CODE - click on "open 24 hours" to view a special message */
+/* CUSTOM JAVASCRIPT CODE - mouseover "open 24 hours" to view a special message */
 
-    document.addEventListener('click', function () {
+    document.addEventListener('mouseover', function () {
         document.getElementById('hours').textContent =
-    'We look forward to hearing from you!';
+    'We look forward to meeting you!';
     });
 
-/* CUSTOM Jquery CODE  - on */
+/* CUSTOM Jquery CODE  - on click background of footerchanges, on hover
+figcaption changes color */
 
-    $('footer').on('mouse-in', function () {
+    $('footer').on('click', function () {
         $('footer').addClass('change');
-  });
+    });
+
+    $('figcaption').mouseover(function () {
+        $('figcaption').addClass('border');
+    });

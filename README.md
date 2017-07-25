@@ -15,6 +15,13 @@
 [JQuery Ticker Plugin](http://www.jqueryscript.net/animation/HTML-List-Based-Scroller-Ticker-Plugin-jQuery-simpleTicker.html)
 ## On the homepage, there are a variety scrolling quotes above the footer.
 
+## Custom Javascript
+### Upon mouse-enter on hours of operation, a new text option is displayed
+
+## Custom JQuery
+### Upon clicking on the footer, the background image of the footer changes by applying a class to it
+### Upon hovering over the <figcaption> the color changes by applying a class to it
+
 # Deductions
 * I reviewed the list of deductions for this project and in the syllabus.
 
