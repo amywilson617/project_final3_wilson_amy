@@ -11,6 +11,10 @@ $.simpleTicker($('#demo'), {
     effectType: 'slide'
 });
 
+
+/* CUSTOM JAVASCRIPT CODE - click on "open 24 hours" to view a special message */
+
 document.addEventListener('click', function () {
-    document.getElementById('hours').textContent = 'We look forward to hearing from you';
+    document.getElementById('hours').textContent =
+    'We look forward to hearing from you!';
 });
