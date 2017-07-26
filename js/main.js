@@ -14,7 +14,7 @@
 
 /* CUSTOM JAVASCRIPT CODE - mouseover "open 24 hours" to view a special message */
 
-    document.addEventListener('mouseover', function () {
+    document.addEventListener('click', function () {
         document.getElementById('hours').textContent =
     'We look forward to meeting you!';
     });
