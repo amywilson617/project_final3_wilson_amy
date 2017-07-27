@@ -1,3 +1,4 @@
+/* JQuery plugins */
 
     $('#card').flip({
         axis: 'x',
@@ -10,7 +11,6 @@
         easing: 'swing',
         effectType: 'slide'
     });
-
 
 /* CUSTOM JAVASCRIPT CODE - mouseover "open 24 hours" to view a special message */
 
