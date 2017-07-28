@@ -1,11 +1,25 @@
 # Links
 [Github Repo](https://github.com/amywilson617/project_final3_wilson_amy)
 
-[Webhost]()
+[Webhost](http://www.amywilson.net/aw2final/index.html)
 
-[W3C's validator]()
+* [W3C's validator- Index](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.amywilson.net%2Faw2final%2F)
 
-[HTML 5 Outliner]()
+* [W3C's validator- Menu](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.amywilson.net%2Faw2final%2Fmenu.html)
+
+* [W3C's validator- About](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.amywilson.net%2Faw2final%2Faboutus.html)
+
+* [W3C's validator- Fame](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.amywilson.net%2Faw2final%2Ffame.html)
+
+* [W3C's validator- CSS](https://jigsaw.w3.org/css-validator/validator)
+
+* [HTML 5 Outliner - Index](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.amywilson.net%2Faw2final%2Findex.html)
+
+* [HTML 5 Outliner - Menu](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.amywilson.net%2Faw2final%2Fmenu.html)
+
+* [HTML 5 Outliner - About](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.amywilson.net%2Faw2final%2Faboutus.html)
+
+* [HTML 5 Outliner - Fame](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.amywilson.net%2Faw2final%2Ffame.html)
 
 # Resources
 * I referenced my own projects from last semester.
