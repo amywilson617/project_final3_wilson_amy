@@ -1,5 +1,5 @@
 # Links
-[Github Repo]()
+[Github Repo](https://github.com/amywilson617/project_final3_wilson_amy)
 
 [Webhost]()
 
@@ -19,12 +19,11 @@
 * Upon click on hours of operation, a new text option is displayed
 
 ## Custom JQuery
-* Upon clicking on the footer, the background image of the footer changes by applying a class to it
+* Upon clicking on the footer on the home page, the background image of the footer changes by applying a class to it
 * Upon hovering over the figcaption the color changes by applying a class to it
 
 # Deductions
 * I reviewed the list of deductions for this project and in the syllabus.
 
 # Comments
-* This was a fun fun project! I understand JavaScript and JQuery now more than ever,
-and I am excited to add this to my portfolio.
+* This was a fun fun project! I understand JavaScript and JQuery now more than ever,and I am excited to add this to my portfolio.

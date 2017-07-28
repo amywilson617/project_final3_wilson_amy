@@ -19,8 +19,8 @@
     'We look forward to meeting you!';
     });
 
-/* CUSTOM Jquery CODE  - on click background of footerchanges, on hover
-figcaption changes color */
+/* CUSTOM Jquery CODE  - on click background of home page footer and it changes,
+on hoverfigcaption changes color */
 
     $('footer').on('click', function () {
         $('footer').addClass('change');
